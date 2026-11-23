@@ -1,0 +1,13 @@
+{
+    "web":{
+        "orangehrm" :"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+        "title":"OrangeHRM"
+    },
+    "db":{
+            "host": "127.0.0.1",
+            "port": 3306,
+            "user": "root",
+            "password": "root",
+            "database": "data"
+        }
+}

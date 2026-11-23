@@ -1,0 +1,16 @@
+{
+    "Verify valid login": {
+        "username": "Admin",
+        "password": "admin123",
+          "title":"OrangeHRM"
+          
+
+    },
+     "Verify invalid login": {
+        "username": "InvalidUsername",
+        "password": "InvalidPassword",
+          "title":"OrangeHRM"
+          
+
+    }
+}

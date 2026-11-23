@@ -1,0 +1,8 @@
+{
+    "username" :"//input[@placeholder='Username']",
+    "password" :"//input[@placeholder='Password']",
+    "loginButton" :"//button[@type='submit']",
+    "forgetPasswordLink":".orangehrm-login-forgot-header",
+    "searchButton":"input[placeholder='Search']",
+    "requiredFieldErrorMessage":".oxd-input-field-error-message"
+}

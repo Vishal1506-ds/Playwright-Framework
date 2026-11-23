@@ -1,0 +1,12 @@
+{
+    "countOfCustomers": "SELECT COUNT(*) AS customerCount FROM customers",
+    "customerDetailsById": "SELECT * FROM customers WHERE customer_id = ?",
+    "customersByCity": "SELECT * FROM customers WHERE city = ?",
+    "ordersByStatus": "select * from orders where order_status=?",
+    "orderAmount" :"select * from orders where order_amount>?;",
+    "customerAndOrdersInnerJoin" : "select * from customers c inner join orders d on c.customer_id=d.customer_id",
+    "orderForSpecificCustomer" : "select * from customers c inner join orders d on c.customer_id=d.customer_id where c.customer_id=?",
+    "sumOfTotalAmount" : "select sum(order_amount) as totalAmount from customers c inner join orders d on c.customer_id=d.customer_id where c.customer_id=?",
+    "paidOrders" : "select * from customers c inner join orders d on c.customer_id=d.customer_id where d.order_status=? "
+
+}
